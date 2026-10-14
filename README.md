@@ -53,8 +53,7 @@ An already downloaded local model/data directory can be used instead. Download
 SpreadsheetBench **V1** from its official
 [repository](https://github.com/RUCKBReasoning/SpreadsheetBench) and extract
 `all_data_912_v0.1` under `data/`. Its `dataset.json` and `spreadsheet/` directory
-must remain together. This release does not include SpreadsheetBench V2.
-
+must remain together. 
 Normalize the official Spreadsheet-RL training split and the separate Domain
 evaluation split:
 
@@ -75,10 +74,7 @@ done
 
 Use `--link-mode copy` when source and destination are on different filesystems.
 The Domain converter uses the released `test_domain_hermes.parquet`, original
-instructions, answer regions, `input.xlsx`, and `target.xlsx`. The release has
-**1,662 tasks**, whereas the paper table reported 1,660; no examples are removed
-to force the paper's count. V1 contains 912 tasks and 2,726 workbook variants.
-
+instructions, answer regions, `input.xlsx`, and `target.xlsx`.
 ### Frozen training recipes
 
 `recipes/*.jsonl.gz` contains the actual prepared policy prompts and schedules,
@@ -319,8 +315,7 @@ The following are archived **raw/local**, not newly measured Excel results:
 | Dataset | Selected profile | Hard accuracy | Average accuracy | Execution success |
 |---|---|---:|---:|---:|
 | SpreadsheetBench V1 | Common + Generation, K4 consistency | 27.08% (247/912) | 32.80% (894/2,726) | 98.42% (2,683/2,726) |
-| Domain-Spreadsheet | Common + Generation, K4 consistency | 28.34% (471/1,662) | 28.34% (471/1,662) | 99.46% |
-| Domain-Spreadsheet | Training-free, K4 consistency | 29.12% (484/1,662) | 29.12% (484/1,662) | 99.52% (1,654/1,662) |
+| Domain-Spreadsheet | Common + Generation, K4 consistency | 29.12% (484/1,662) | 29.12% (484/1,662) | 99.52% (1,654/1,662) |
 
 Source: the research workspace's
 `reports/experiment_updates/20261009_main_results_compact.csv`. These figures
