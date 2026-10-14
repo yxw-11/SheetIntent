@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "environment": {
+    "python": "3.11",
+    "torch": "2.7.0+cu128",
+    "transformers": "4.51.3",
+    "vllm": "0.9.1",
+    "verl": "0.6.0",
+    "pip_check": "passed on the existing reference environment"
+  },
+  "checks": {
+    "cpu_regression_tests": 11,
+    "cpu_regression_status": "passed",
+    "mocked_full_prediction_and_resume": "passed; four candidates, stage routing, no repeated LLM calls on resume",
+    "hydra_config_resolution": ["common", "generation", "review"],
+    "training_recipe_materialization": ["common", "generation", "review"],
+    "shell_syntax": "passed",
+    "python_syntax": "passed",
+    "review_and_recalc_cli_imports": "passed"
+  },
+  "not_executed": [
+    "Fresh conda installation from the setup script",
+    "New GPU training or vLLM inference",
+    "Native Microsoft Excel service integration",
+    "Full benchmark accuracy reproduction"
+  ],
+  "note": "CPU fixtures validate orchestration, not model quality. Reference accuracy is archived separately."
+}

@@ -1,0 +1,1 @@
+{"stage":"review","steps":40,"batch":4,"generations":4,"lr":8e-7,"prompt_tokens":12288,"response_tokens":12288,"temperature":0.8,"top_p":0.95,"save_every":10,"recipe_seed":42,"shuffle":false,"timeout":180}

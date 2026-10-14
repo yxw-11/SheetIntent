@@ -1,0 +1,43 @@
+{
+  "source": "reports/experiment_updates/20261009_main_results_compact.csv",
+  "sha256": "3d1de57518e1ebdeb3cb44c5a366a8de4602a90bfb1a1b65dcdda6214ff018d8",
+  "evaluation": "archived raw/local; not fresh release measurements",
+  "rows": [
+    {
+      "dataset": "v1",
+      "method": "Diagnostic + Semantic K4 consistency",
+      "tasks": "912",
+      "candidates": "4",
+      "hard_percent": "27.08",
+      "average_case_accuracy_percent": "32.8",
+      "execution_percent": "98.42",
+      "correct_cases": "894",
+      "total_cases": "2726",
+      "source": "data/all_data_912_v0.1/outputs/positive912_v3_mixed_consensus"
+    },
+    {
+      "dataset": "domain",
+      "method": "Diagnostic + Semantic K4 consistency",
+      "tasks": "1662",
+      "candidates": "4",
+      "hard_percent": "28.34",
+      "average_case_accuracy_percent": "28.34",
+      "execution_percent": "99.46",
+      "correct_cases": "471",
+      "total_cases": "1662",
+      "source": "experiments/domain_priority/runs/v3_sheet_fix/domain/trained_consensus"
+    },
+    {
+      "dataset": "domain",
+      "method": "Training-free K4 consistency",
+      "tasks": "1662",
+      "candidates": "4",
+      "hard_percent": "29.12",
+      "average_case_accuracy_percent": "29.12",
+      "execution_percent": "99.52",
+      "correct_cases": "484",
+      "total_cases": "1662",
+      "source": "experiments/domain_priority/runs/v3_sheet_fix/domain/free_consensus"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "common": {
+    "source_parquet": "data/verl_spreadsheet_rl_v2/train.parquet",
+    "source_sha256": "86276719bce51327cad49f1a5ce497b15e764cbab16a6b4eaa33c7e437c58e2a",
+    "recipe_sha256": "207f316715e89c6c187563e9f2ddae39eea5c11f833eab572be0e4faf7eaaf25",
+    "rows": 1136,
+    "unique_tasks": 1136,
+    "adapter_source": "data/verl_runs/verl_fast_diagnostic_20260903_194205_29912717/preserved/global_step_50/actor/lora_adapter",
+    "adapter_files": {
+      "adapter_config.json": "9a1b7161b50dd7c43c04195bce2564d3486d4654e356e41fdfc4b82856a4ed3f",
+      "adapter_model.safetensors": "c9007f13786ad3bc80df94a365538f5f921b48545f6be497304b6840b9988146"
+    }
+  },
+  "generation": {
+    "source_parquet": "experiments/semantic_transfer/runs/v1/semantic_generation/datasets/generation/train.parquet",
+    "source_sha256": "e04c956679c1bc863efd97cb6a349a146109b21e84b4dda31ca33344acec3a8c",
+    "recipe_sha256": "4356bc5d95d148924f0ecc00f404339cefcdae4dcbd08d130952af7fc469463b",
+    "rows": 160,
+    "unique_tasks": 73,
+    "adapter_source": "experiments/semantic_transfer/runs/v1/semantic_generation/grpo/checkpoints/global_step_40/actor/lora_adapter",
+    "adapter_files": {
+      "adapter_config.json": "6d7f1381edefd190f980c188efd5af25ccd4cc31d9629264024ce5ae066ba038",
+      "adapter_model.safetensors": "31616ff9e60ef96b9a300f9ddf9040c5b781bba8ab826eea4dd83c1a7dc192e9"
+    }
+  },
+  "review": {
+    "source_parquet": "experiments/semantic_stage2/runs/pilot_v1/correction/datasets/correction/train.parquet",
+    "source_sha256": "c70158dce04abed935aa7abc9a7bf2abecd41f44bbc407f161e31bb7e4c05bd1",
+    "recipe_sha256": "b10dc1c920598652bb94ba1a3ac345f0db265bccd090861cee195936e1ef61c0",
+    "rows": 160,
+    "unique_tasks": 117,
+    "adapter_source": "experiments/semantic_stage2/runs/pilot_v1/correction/grpo/checkpoints/global_step_40/actor/lora_adapter",
+    "adapter_files": {
+      "adapter_config.json": "ee0e4d1183455538b5ff3096d9494bd0f919831aeaf54d8d821037ba44f36e6b",
+      "adapter_model.safetensors": "90833f2e896a25dbb9a081478664d914f32f1f8dab5c47868a9c9ee5f504c0d3"
+    }
+  }
+}

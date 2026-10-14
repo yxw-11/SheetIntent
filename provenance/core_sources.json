@@ -1,0 +1,114 @@
+{
+  "src/spreadsheetbench_lite/data.py": {
+    "source": "src/spreadsheetbench_lite/data.py",
+    "sha256": "2ca303b09176e9ea084b74b3c47225d51aeb78ca98019ae13600060eefc795ed"
+  },
+  "src/spreadsheetbench_lite/__init__.py": {
+    "source": "src/spreadsheetbench_lite/__init__.py",
+    "sha256": "357f2fe3276d065c1282504ded9d0c2f9b17a7ddd47475a75579f6a801617767"
+  },
+  "src/spreadsheetbench_lite/llm.py": {
+    "source": "src/spreadsheetbench_lite/llm.py",
+    "sha256": "36058f3ca94517982519a62f6b1c41b9968b4f99222145be12630799ab09619d"
+  },
+  "src/spreadsheetbench_lite/prompt.py": {
+    "source": "src/spreadsheetbench_lite/prompt.py",
+    "sha256": "34c5095a2da24764d18146b120e859d499396c2c2eef814c0512114d3de5b0be"
+  },
+  "src/spreadsheetbench_lite/excel_preview.py": {
+    "source": "src/spreadsheetbench_lite/excel_preview.py",
+    "sha256": "88cf37d0bb5542ad56d57a2a76071c8b291a76e92c0af5f21ad61575774353c6"
+  },
+  "src/spreadsheetbench_lite/evaluate_v1.py": {
+    "source": "src/spreadsheetbench_lite/evaluate_v1.py",
+    "sha256": "72df2d5044a79b4111beb89d299133177245c64796721ab170a18c6af5735d96"
+  },
+  "src/spreadsheet_code_agent_v0/inspection.py": {
+    "source": "src/spreadsheet_code_agent_v0/inspection.py",
+    "sha256": "653abd66a92802f099b9c5b5e562b866294ac1a407cbdc051748cbeb50abc221"
+  },
+  "src/spreadsheet_code_agent_v0/runtime.py": {
+    "source": "src/spreadsheet_code_agent_v0/runtime.py",
+    "sha256": "7d247e02b72167d766bd5fd5b56354d1be249b51ec5f989a8960d9e3e4b63c51"
+  },
+  "src/spreadsheet_code_agent_v0/prompts.py": {
+    "source": "src/spreadsheet_code_agent_v0/prompts.py",
+    "sha256": "b62101b856595a11cd09323008b00bebe74bd17fa82d8762517bfa113e53b181"
+  },
+  "src/spreadsheet_code_agent_v0/__init__.py": {
+    "source": "src/spreadsheet_code_agent_v0/__init__.py",
+    "sha256": "6cf778c5e0f230d527e121c63588276aa7ab3eebcbe88399b72e86a640e69d4b"
+  },
+  "src/spreadsheet_code_agent_v0/preflight.py": {
+    "source": "src/spreadsheet_code_agent_v0/preflight.py",
+    "sha256": "cf2186db7860810ac34274d45c630ae7c91ec634bb4b73326e651ce5b6745808"
+  },
+  "src/spreadsheet_code_agent_v0/api_lookup.py": {
+    "source": "src/spreadsheet_code_agent_v0/api_lookup.py",
+    "sha256": "c3e30db0d51d14d1c2d2c18a961a1e4312b509a61f2f82d1d9004d53c4f77c43"
+  },
+  "src/spreadsheet_code_agent_v0/run_agent_v0.py": {
+    "source": "src/spreadsheet_code_agent_v0/run_agent_v0.py",
+    "sha256": "076589baca4bba1ecab5e801d97c39cb22b9f791195720376502fff4305ad390"
+  },
+  "src/spreadsheet_recalc/client.py": {
+    "source": "src/spreadsheet_recalc/client.py",
+    "sha256": "091c028546aaedb300fbaa60ca299f3bd83398f46e9a1c5477a75d773fb03ecc"
+  },
+  "src/spreadsheet_recalc/official.py": {
+    "source": "src/spreadsheet_recalc/official.py",
+    "sha256": "7a06af83c042bbf07eb83cdfdb23acd422ead5ae90a6910122eb4661dfd596ee"
+  },
+  "src/spreadsheet_recalc/__init__.py": {
+    "source": "src/spreadsheet_recalc/__init__.py",
+    "sha256": "77f0c29ccf29f95fcd3ecbfce34bc71a10f68d1f8049341b466dfecc6ee88509"
+  },
+  "src/spreadsheet_recalc/evaluate.py": {
+    "source": "src/spreadsheet_recalc/evaluate.py",
+    "sha256": "e4382e7bce33a621d9b7408524b8f6afd54dfe1e285f2d61ffe2de81948e20e1"
+  },
+  "src/spreadsheetbench_lite/executor.py": {
+    "source": "src/spreadsheetbench_lite/executor.py",
+    "sha256": "0983a963b85d2aed23a809e52768be697d6f4391b7efb7ce3634153657aa7945"
+  },
+  "src/spreadsheet_agent/reward_terms.py": {
+    "source": "src/spreadsheet_code_agent_rl/verl_reward_v2.py",
+    "sha256": "59efa5434a48352276aa8dec37cdda429d0622af3e6dea96bb40436941a48fe2"
+  },
+  "src/spreadsheet_agent/review.py": {
+    "source": "experiments/semantic_stage2/core.py",
+    "sha256": "f004c7bef17afeda1eacdfdf19675399d6add58d5f6f1cb009310fc0c550c510"
+  },
+  "src/spreadsheet_agent/sandbox.py": {
+    "source": "experiments/stagewise_v1/scoring.py",
+    "sha256": "6309accad82ed20e8dba24bbda4496bfefd3cc021281069e3457e3d52234d26f"
+  },
+  "src/spreadsheet_agent/consistency.py": {
+    "source": "experiments/selection_loss_v1/selection.py + experiments/learned_selector/core.py",
+    "sha256": "31eb42bb6f3f858b709f2d4fb7bda9406eb2e8c03230f1928e01f3ff870926e2"
+  },
+  "src/spreadsheet_agent/observations.py": {
+    "source": "experiments/learned_selector/core.py",
+    "sha256": "ddb08da701397883a1eb92acab77cf49e2ed281ab2ea09e01df916ecc9b6e85b"
+  },
+  "src/spreadsheet_agent/domain_preflight.py": {
+    "source": "experiments/sheet_preflight_fix.py",
+    "sha256": "e433c1e26c0cf075494fdf4c5ba23d64d3573036e2e9937a6b2b577faffd5dab"
+  },
+  "src/spreadsheet_code_agent_rl/env.py": {
+    "source": "src/spreadsheet_code_agent_rl/env.py",
+    "sha256": "0a7b97e55a222312d1a2904c025e14122798dd22663adabdd5dd461b03304099"
+  },
+  "src/spreadsheet_code_agent_rl/reward.py": {
+    "source": "src/spreadsheet_code_agent_rl/reward.py",
+    "sha256": "ec7dd0cb60d527e85a8db52613bf7919c0172a025fc55625fbc1cad7be6e05f1"
+  },
+  "src/spreadsheet_code_agent_rl/adapt_spreadsheet_rl.py": {
+    "source": "src/spreadsheet_code_agent_rl/adapt_spreadsheet_rl.py",
+    "sha256": "e6a37ef6bc3c6e7e4a2091d1ae51fd28cd087bba129fae672889419d61e856dd"
+  },
+  "src/spreadsheet_code_agent_rl/__init__.py": {
+    "source": "package marker",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
